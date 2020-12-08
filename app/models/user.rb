@@ -11,19 +11,6 @@ class User < ApplicationRecord
   has_many :likes, dependent: :destroy
   has_many :friendships
   has_many :inverse_friendships, :class_name => "Friendship", :foreign_key => "friend_id"
-  # has_many :friendships, -> { where('confirmed = ?', true) },
-  # class_name: 'Friendship', dependent: :destroy
-  # has_many :friends, through: :friendships
-
-  # has_many :pending_friendships, -> { where('confirmed = ?', false) },
-  #   class_name: 'Friendship', foreign_key: 'user_id', dependent: :destroy
-
-  # has_many :pending_friends, through: :pending_friendships, source: :friend
-
-  # has_many :inverse_friendships, -> { where('confirmed = ?', false) },
-  #   class_name: 'Friendship', foreign_key: 'friend_id', dependent: :destroy
-
-  # has_many :friend_requests, through: :inverse_friendships, source: :user
 
   def friends
     friends_array = friendships.map{|friendship| friendship.friend if friendship.confirmed}

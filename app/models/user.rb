@@ -33,6 +33,7 @@ class User < ApplicationRecord
     friendship = inverse_friendships.find { |friendship| friendship.user == user }
     friendship.confirmed = true
     friendship.save
+    Friendship.create!(friend_id: user.id, user_id: id, status: true)
   end
 
   def friend?(user)
@@ -42,5 +43,14 @@ class User < ApplicationRecord
   def reject_request(user)
     friendship = inverse_friendships.find { |f| f.user == user }
     friendship.destroy
+  end
+
+  def friends_and_own_posts
+    Post.where(user_id: friends_ids)
+  end
+
+  def friends_ids
+    f_ids = friends.map(&:id)
+    f_ids << id
   end
 end

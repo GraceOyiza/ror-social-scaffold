@@ -92,9 +92,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-TBA
+- Microverse
 
 ## 📝 License
 
-TBA
+This project is [MIT](lic.url) licensed.
 

@@ -29,7 +29,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-$ git clone git@github.com:GraceOyiza/ror-social-scaffold.git
+$ git clone https://github.com/GraceOyiza/ror-social-scaffold.git
+
 $ cd ror-social-scaffold
 
 Instal gems with:

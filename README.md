@@ -29,6 +29,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
+$ git clone git@github.com:GraceOyiza/ror-social-scaffold.git
+$ cd ror-social-scaffold
+
 Instal gems with:
 
 ```
@@ -37,20 +40,11 @@ bundle install
 
 Setup database with:
 
+- make sure you have postgress sql installed and running on your system
 ```
    rails db:create
    rails db:migrate
 ```
-
-### Github Actions
-
-To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
-
-1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
-2. Create the `feature/branch` and push.
-3. Start working on your milestone as usual.
-4. Open a PR from the `feature/branch` when your work is done.
-
 
 ### Usage
 
@@ -68,15 +62,22 @@ Open `http://localhost:3000/` in your browser.
     rpsec --format documentation
 ```
 
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
+## Author Details::
 
-### Deployment
+👤 **Popoola Grace Boluwatife**
 
-TBA
+- Github: [Github](https://github.com/GraceOyiza)
+- Twitter: [Twitter](https://twitter.com/_PopsonGrace)
+- E-mail: <a href="mailto:graceoyiza13@gmail.com?subject=Hello Grace!">Email</a>
+- LinkedIn: [Linkedin](https://www.linkedin.com/in/grace-popoola)
 
-## Authors
+👤 **Aye Daniel A**
 
-TBA
+- Github: [Github](https://github.com/Alaska01)
+- Twitter: [Twitter](https://twitter.com/AyeAsoo)
+- E-mail: <a href="mailto:aadaniel108@gmail.com?subject=Hello Daniel!">Email</a>  
+- Linkedin: [Linkedin](https://www.linkedin.com/in/daniel-asoo-aye/)
+
 
 ## 🤝 Contributing
 

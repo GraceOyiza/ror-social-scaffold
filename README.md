@@ -6,7 +6,7 @@ Some of the advanced concepts explored in this project includes.
 - Working with advanced associations, many-to-many relationships.
 - Using RSpec testing using shoulda-matchers and capybara
 
-![screenshot] (./app/assets/images/screenshotror.png)
+![screenshot](./app/assets/images/screenshotror.png)
 
 ## Built With
 
@@ -14,7 +14,7 @@ Some of the advanced concepts explored in this project includes.
 - Ruby on Rails v5.2.4
 
 ## Live Demo
-[Live Link] (https://grace-aye-social-media.herokuapp.com/)
+[Live Link](https://grace-aye-social-media.herokuapp.com/)
 
 
 ## Getting Started
@@ -23,9 +23,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Ruby: 2.6.3
-Rails: 5.2.3
-Postgres: >=9.5
+- Ruby: 2.7.1
+- Rails: 5.2.4
+- Postgres: >= 0.18
 
 ### Setup
 

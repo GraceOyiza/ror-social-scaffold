@@ -1,15 +1,20 @@
 # Scaffold for social media app with Ruby on Rails
 
-> This repo includes intial code for social media app with basic styling. Its purpose is to be a starting point for Microverse students.
+> In this project we developed a full flesh social media application from modelling the entity relationship diagram (ERD) to building the needed ActiveRecords.
+
+Some of the advanced concepts explored in this project includes.
+- Working with advanced associations, many-to-many relationships.
+- Using RSpec testing using shoulda-matchers and capybara
+
+![screenshot] (./app/assets/images/screenshotror.png)
 
 ## Built With
 
-- Ruby v2.7.0
+- Ruby v2.7.1
 - Ruby on Rails v5.2.4
 
 ## Live Demo
-
-TBA.
+[Live Link] (https://grace-aye-social-media.herokuapp.com/)
 
 
 ## Getting Started
